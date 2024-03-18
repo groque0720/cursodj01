@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>habilidades</h1>
+    <!-- <form action="" method="GET">
+        {% csrf_token %}
+        <input type="text" id="kword" name="kword" placeholder="ingrese nombre">
+        <button type="submit">Buscar</button>
+    </form> -->
+    <br>
+    <!-- {{ habilidades }} -->
+    {% for e in habilidades %}
+        <li>{{ e }}</li>
+    {% endfor %}
+        
+</body>
+</html>
